@@ -1,0 +1,48 @@
+.containerSection {
+  height: 81vh;
+}
+
+.pSection {
+  font-size: 17px;
+  color: #818385;
+  padding: 2em;
+  line-height: 2em;
+}
+
+.enterSection {
+  padding: 2em;
+}
+
+@media only screen and (min-width: 1000px) {
+  
+  .logoSection > img {
+    width: 595px;
+    height: 100px;
+  }
+
+  .homeBackground > img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .containerSection {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+
+  .rightSection {
+    width: 45%;
+  }
+
+  .homeBackground {
+    width: 100%;
+  }
+
+  .pSection>p {
+    width: 50%;
+  }
+}

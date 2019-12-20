@@ -1,0 +1,139 @@
+.leftSection {
+  width: 90%;
+}
+
+.mainSection>h2 {
+  font-weight: bold;
+}
+
+.mainSection>ul li {
+  font-size: 17px;
+  color: #818385;
+  line-height: 2em;
+}
+
+.rightSection {
+  width: 10%;
+}
+
+.rightSection>div {
+  // border: solid 1px red;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightSection>div li {
+  transform: rotate(-90deg);
+  list-style: none;
+}
+
+.rightSection>div li a {
+  color: #fff;
+  font-size: 25px;
+}
+
+.rightSection>div:nth-child(1) {
+  background-color: #A6A6A6;
+}
+
+.rightSection>div:nth-child(2) {
+  background-color: #46BEB2;
+}
+
+.rightSection>div:nth-child(3) {
+  background-color: #000;
+}
+
+.rightSection>div:nth-child(4) {
+  background-color: #581206;
+}
+
+.rightSection>div:nth-child(5) {
+  background-color: #A43F13;
+}
+
+@media only screen and (min-width: 1000px) {
+
+  .leftSection {
+    width: 55%;
+  }
+
+  .logoSection {
+    justify-content: flex-start;
+    margin-left: 10em;
+  }
+
+  .mainSection {
+    //   width: 70%;
+    padding-left: 10em;
+  }
+
+  .mainSection > img {
+    width: 90%;
+  }
+
+  .rightSection {
+    width: 45%;
+    margin-top: 10vh;
+  }
+
+  .rightSection>div:nth-child(1) {
+    background-color: #A6A6A6;
+    height: 18vh;
+  }
+
+  .rightSection>div:nth-child(2) {
+    background-color: #46BEB2;
+    height: 18vh;
+  }
+
+  .rightSection>div:nth-child(3) {
+    background-color: #000;
+    height: 18vh;
+  }
+
+  .rightSection>div:nth-child(4) {
+    background-color: #581206;
+    height: 18vh;
+  }
+
+  .rightSection>div:nth-child(5) {
+    background-color: #A43F13;
+    height: 18vh;
+  }
+
+  .containerSection {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+
+  .rightSection {
+    width: 45%;
+  }
+
+  .rightSection>div li {
+    transform: rotate(0);
+    list-style: none;
+  }
+
+  .pSection>p {
+    width: 50%;
+  }
+
+  .sectionImg {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .sectionImg>img {
+    width: 100%;
+    height: 18vh;
+    object-fit: cover;
+    object-position: center;
+  }
+}

@@ -1,0 +1,59 @@
+.contactSection {
+    font-size: 17px;
+    
+}
+
+a{
+  color: #818385;  
+}
+
+a:hover{
+    color: #525252;  
+}
+
+.mapSection {
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        filter: grayscale(100%);
+}
+
+.contact-card > img{
+  width: 5em;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 1000px) {
+  .leftSection {
+      width: 50%;
+  }
+
+  .logoSection {
+      justify-content: flex-start;
+      margin-left: 10em;
+  }
+
+  .contactSection {
+    // border: solid;
+    // height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+  }
+
+  .mapSection {
+      width: 50%;
+      display: flex;
+      align-items: center;
+  }
+
+  .mapSection iframe {
+      height: 70%;
+  }
+}

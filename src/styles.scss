@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+p , li{
+  text-align: justify;
+}
+
+.logoSection {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0;
+}
+
+.logoSection > img {
+  width: 300px;
+  height: 50.61px;
+}
+
