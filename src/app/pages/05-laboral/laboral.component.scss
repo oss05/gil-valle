@@ -31,7 +31,7 @@
 
 .rightSection>div li a {
   color: #fff;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .rightSection>div:nth-child(1) {
@@ -77,6 +77,11 @@
   .rightSection {
     width: 45%;
     margin-top: 10vh;
+  }
+
+  .rightSection>div li a {
+    color: #fff;
+    font-size: 15px;
   }
 
   .rightSection>div:nth-child(1) {
