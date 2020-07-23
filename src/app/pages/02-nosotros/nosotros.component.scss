@@ -1,5 +1,5 @@
 .containerSection {
-  height: 81vh;
+  // height: 81vh;
 }
 
 .pSection {
@@ -14,6 +14,10 @@
 }
 
 @media only screen and (min-width: 1000px) {
+
+  .logoSection {
+    margin: 6em 0 1em 0;
+}
 
   .logoSection>img {
     width: 420px;
@@ -43,6 +47,6 @@
   }
 
   .pSection>p {
-    width: 50%;
+    width: 75%;
   }
 }
